@@ -1,0 +1,7 @@
+version: '3'
+services:
+  w4lweb:
+    image: "jiajidev/chatop:0.1.1"
+    restart: always
+    ports:
+     - "8080:8080"
