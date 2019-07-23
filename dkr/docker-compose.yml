@@ -3,5 +3,7 @@ services:
   w4lweb:
     image: "jiajidev/chatop:0.1.1"
     restart: always
+    volumes:
+     - ../rest/userdata/:/appdata/
     ports:
      - "8080:8080"
